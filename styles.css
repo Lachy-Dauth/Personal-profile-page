@@ -322,12 +322,14 @@ footer > p {
 
 #contact > header > h2 {
   margin: 2rem;
+  text-align: center;
   color: var(--main-white);
 }
 
 #contact > ul {
-  margin: 4rem;
+  margin: 4rem 4rem 4rem 0rem;
   display: flex;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -341,8 +343,7 @@ footer > p {
 
 #contact > ul > li {
   color: var(--main-white);
-  text-decoration: none;
-  margin: 0px;
+  margin-left: 0px;
   padding: 0px;
   text-align: center;
   width: max-content;
