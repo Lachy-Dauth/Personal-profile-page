@@ -188,18 +188,40 @@ p {
   font-weight: 400;
 }
 
+.link-in-heading {
+  color: var(--main-white);
+}
+
 #work {
   background-color: var(--main-blue);
 }
 
 #work > header {
-  margin-left: auto;
-  margin-right: auto;
   width: fit-content;
 }
 
 #work > header > h2 {
-  margin: 3rem 0rem;
+  margin: 3rem 3rem;
+  text-align: center;
+  color: var(--main-white);
+  border-bottom: 2px solid var(--main-white);
+}
+
+#FCC-unit1 {
+  background-color: var(--main-blue);
+}
+
+#python {
+  background-color: var(--main-red);
+}
+
+.work-sec > header {
+  width: fit-content;
+}
+
+.work-sec > header > h2 {
+  margin: 3rem 3rem;
+  text-align: center;
   color: var(--main-white);
   border-bottom: 2px solid var(--main-white);
 }
@@ -212,6 +234,7 @@ p {
   grid-template-rows: 1fr;
   column-gap: 4rem;
   row-gap: 4rem;
+  margin-bottom: 4rem;
 }
 
 .project {
@@ -257,7 +280,7 @@ p {
   font-size: 2rem;
   color: var(--main-white);
   text-decoration: none;
-  margin: 4rem;
+  margin-bottom: 4rem;
   background-color: var(--main-grey);
   transition: background 0.3s ease-out;
 }
@@ -337,6 +360,6 @@ footer > p {
 }
 
 .fa-at {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
