@@ -366,18 +366,17 @@ footer > p {
 
 #contact > ul > li {
   color: var(--main-white);
-  margin-left: 0px;
   padding: 0px;
   text-align: center;
   width: max-content;
   transition: transform 0.3s ease;
-  height: fit-content;
+  margin: 1rem 0rem;
 }
 
 #contact > ul > li > a {
   color: var(--main-white);
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
 }
 
 #contact > ul > li:hover {
