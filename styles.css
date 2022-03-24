@@ -371,12 +371,13 @@ footer > p {
   text-align: center;
   width: max-content;
   transition: transform 0.3s ease;
+  height: fit-content;
 }
 
 #contact > ul > li > a {
   color: var(--main-white);
   text-decoration: none;
-  padding: 0rem 2rem;
+  padding: 1rem 2rem;
 }
 
 #contact > ul > li:hover {
@@ -386,4 +387,8 @@ footer > p {
 .at-icon {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+}
+
+#certificates {
+  background-color: var(--main-white);
 }
